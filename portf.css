@@ -147,6 +147,8 @@ section {
   border-radius: 10px;
   margin: 20px;
   transition: 0.7s ease;
+  
+  
 }
 .project-card:hover {
   transform: scale(1.1);
