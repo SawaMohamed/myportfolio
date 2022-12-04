@@ -8,7 +8,7 @@
   scroll-behavior: smooth;
 }
 header {
-  background-color: antiquewhite;
+  background-color: #000016;
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -43,12 +43,12 @@ section {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(Images/pc.png) no-repeat;
+  background: url(Images/new.jpg) no-repeat;
   background-size: 30%;
   background-position: right;
   /* to effect to stop movining the Photo when we scrolling*/
   background-attachment: fixed;
-  background-color: rgb(9, 22, 37);
+  background-color:#000000;
 }
 .main h2 {
   color: aliceblue;
@@ -139,8 +139,8 @@ section {
   background-color: rgb(9, 22, 37);
 }
 .project-card {
-  background-color: #ffff;
-  border: 1px solid #ffff;
+  background-color: rgb(255, 254, 254);
+  border: 1px solid rgb(255, 255, 255);
   min-height: 12em;
   width: 15em;
   overflow: hidden;
@@ -190,7 +190,7 @@ section {
 }
 .footer {
   background-color: #000016;
-  color: #fff;
+  color: rgb(255, 255, 255);
   padding: 2em;
   display: flex;
   justify-content: space-between;
